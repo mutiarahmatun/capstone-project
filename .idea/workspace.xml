@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd9c1367-8cda-4fa7-88ba-8d65addc7251" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/ApplicationConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MealPlanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ShoppingList.java" afterDir="false" />
-    </list>
+    <list default="true" id="bd9c1367-8cda-4fa7-88ba-8d65addc7251" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,44 +21,45 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2eaJ1Gzq99yKlHBSE9ppxWFhaPr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.CitiesSearchWhetherTest.SearchCityByText.executor": "Run",
-    "TestNG.GetAddressesFakerTest.GetListAddresses.executor": "Run",
-    "TestNG.GetBooksFakerTest.GetListBooks.executor": "Run",
-    "TestNG.GetBooksFakerTest.executor": "Run",
-    "TestNG.GetCreditCardsFakerTest.GetListCreditCards.executor": "Run",
-    "TestNG.GetCreditCardsFakerTest.executor": "Run",
-    "TestNG.GetPlacesFakerTest.executor": "Run",
-    "TestNG.MealPlanTest.MealPlanGenerateTest.executor": "Run",
-    "TestNG.MealPlanTest.executor": "Run",
-    "TestNG.PostalCodeSearchWhetherTest.SearchPostalCodeByText.executor": "Run",
-    "TestNG.PostalCodeSearchWhetherTest.executor": "Run",
-    "TestNG.ShoppingList.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Kelas/PracticalAssessment7",
-    "onboarding.tips.debug.path": "D:/Kelas/CapstoneProject/src/main/java/org/example/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.CitiesSearchWhetherTest.SearchCityByText.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.GetAddressesFakerTest.GetListAddresses.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.GetBooksFakerTest.GetListBooks.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.GetBooksFakerTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.GetCreditCardsFakerTest.GetListCreditCards.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.GetCreditCardsFakerTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.GetPlacesFakerTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MealPlanTest.MealPlanGenerateTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MealPlanTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PostalCodeSearchWhetherTest.SearchPostalCodeByText.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PostalCodeSearchWhetherTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RegionWhetherTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ShoppingList.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Kelas/PracticalAssessment7&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Kelas/CapstoneProject/src/main/java/org/example/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.RegionWhetherTest">
+  <component name="RunManager" selected="TestNG.ShoppingList">
     <configuration name="CitiesSearchWhetherTest.SearchCityByText" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="CapstoneProject" />
       <option name="PACKAGE_NAME" value="" />
@@ -123,8 +119,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.RegionWhetherTest" />
         <item itemvalue="TestNG.ShoppingList" />
+        <item itemvalue="TestNG.RegionWhetherTest" />
         <item itemvalue="TestNG.PostalCodeSearchWhetherTest" />
         <item itemvalue="TestNG.PostalCodeSearchWhetherTest.SearchPostalCodeByText" />
         <item itemvalue="TestNG.CitiesSearchWhetherTest.SearchCityByText" />

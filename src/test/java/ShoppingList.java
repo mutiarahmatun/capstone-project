@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.CoreMatchers.equalTo;
 
-@Feature("Test Meal Plan")
+@Feature("Test Shopping List")
 public class ShoppingList extends BaseTestSpoonacular {
 
     String apiKey = "e50b64651133412f89bc24ff1faad1a9";
