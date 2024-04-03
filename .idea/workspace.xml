@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd9c1367-8cda-4fa7-88ba-8d65addc7251" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTestSpoonacular.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MealPlanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MealPlanTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,18 +41,27 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.GetAddressesFakerTest.GetListAddresses.executor": "Run",
+    "TestNG.GetBooksFakerTest.GetListBooks.executor": "Run",
     "TestNG.MealPlanTest.MealPlanGenerateTest.executor": "Run",
+    "TestNG.MealPlanTest.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Kelas/PracticalAssessment7",
     "onboarding.tips.debug.path": "D:/Kelas/CapstoneProject/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.MealPlanTest">
-    <configuration name="MealPlanTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.GetPlacesFakerTest">
+    <configuration name="GetBooksFakerTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="CapstoneProject" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MealPlanTest" />
+      <option name="MAIN_CLASS_NAME" value="GetBooksFakerTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -61,12 +69,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MealPlanTest.MealPlanGenerateTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GetBooksFakerTest.GetListBooks" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="CapstoneProject" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MealPlanTest" />
-      <option name="METHOD_NAME" value="MealPlanGenerateTest" />
+      <option name="MAIN_CLASS_NAME" value="GetBooksFakerTest" />
+      <option name="METHOD_NAME" value="GetListBooks" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetCreditCardsFakerTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CapstoneProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GetCreditCardsFakerTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetCreditCardsFakerTest.GetListCreditCards" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CapstoneProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GetCreditCardsFakerTest" />
+      <option name="METHOD_NAME" value="GetListCreditCards" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetPlacesFakerTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CapstoneProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GetPlacesFakerTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -75,8 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.MealPlanTest" />
-        <item itemvalue="TestNG.MealPlanTest.MealPlanGenerateTest" />
+        <item itemvalue="TestNG.GetPlacesFakerTest" />
+        <item itemvalue="TestNG.GetCreditCardsFakerTest" />
+        <item itemvalue="TestNG.GetBooksFakerTest" />
+        <item itemvalue="TestNG.GetCreditCardsFakerTest.GetListCreditCards" />
+        <item itemvalue="TestNG.GetBooksFakerTest.GetListBooks" />
       </list>
     </recent_temporary>
   </component>

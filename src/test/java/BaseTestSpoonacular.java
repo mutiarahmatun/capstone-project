@@ -12,15 +12,15 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.util.Properties;
 
-public class BaseTest1 {
+public class BaseTestSpoonacular {
     private static Properties environment;
     private ApplicationConfig cfg = ConfigFactory.create(ApplicationConfig.class);
 
 
     @BeforeSuite(description = "Configure URI")
     public void SetUpSuite(){
-        RestAssured.baseURI = cfg.host1();
-        RestAssured.basePath = cfg.base1();
+        RestAssured.baseURI = cfg.hostSpoon();
+        RestAssured.basePath = cfg.baseSpoon();
         RestAssured.defaultParser = Parser.JSON;
         RestAssured.filters(new AllureRestAssured());
     }
@@ -30,7 +30,7 @@ public class BaseTest1 {
         environment = new Properties();
         environment.put("OS name", System.getProperty("os.name"));
         environment.put("OS version", System.getProperty("os.version"));
-        environment.put("URL", cfg.host1());
+        environment.put("URL", cfg.hostSpoon());
 
         saveEnvironment();
     }

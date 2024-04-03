@@ -6,7 +6,7 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.CoreMatchers.equalTo;
 
 @Feature("Test Meal Plan")
-public class MealPlanTest extends BaseTest1 {
+public class MealPlanTest extends BaseTestSpoonacular {
 
     String apiKey = "b876c037d68f4c49a0ee0df6d29968f6";
     String hash = "6f5cd3989e8e45d2a1ffb82010eb1e6b698f31d0";
@@ -24,8 +24,8 @@ public class MealPlanTest extends BaseTest1 {
                 .statusCode(200)
                 // Assertion isi 1 hari mealplan 3 dish
                 .body("week.monday.meals.size()",equalTo(3));
-
     }
+
     @Test(description = "Add item to mealplan")
     public void AddItemMealPlanTest(){
         String requestBody = "[\n" +
