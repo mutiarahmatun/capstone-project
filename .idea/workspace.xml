@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd9c1367-8cda-4fa7-88ba-8d65addc7251" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/test/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/ApplicationConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTestSpoonacular.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MealPlanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MealPlanTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MealPlanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ShoppingList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,10 +40,18 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.CitiesSearchWhetherTest.SearchCityByText.executor": "Run",
     "TestNG.GetAddressesFakerTest.GetListAddresses.executor": "Run",
     "TestNG.GetBooksFakerTest.GetListBooks.executor": "Run",
+    "TestNG.GetBooksFakerTest.executor": "Run",
+    "TestNG.GetCreditCardsFakerTest.GetListCreditCards.executor": "Run",
+    "TestNG.GetCreditCardsFakerTest.executor": "Run",
+    "TestNG.GetPlacesFakerTest.executor": "Run",
     "TestNG.MealPlanTest.MealPlanGenerateTest.executor": "Run",
     "TestNG.MealPlanTest.executor": "Run",
+    "TestNG.PostalCodeSearchWhetherTest.SearchPostalCodeByText.executor": "Run",
+    "TestNG.PostalCodeSearchWhetherTest.executor": "Run",
+    "TestNG.ShoppingList.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Kelas/PracticalAssessment7",
@@ -57,23 +63,12 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.GetPlacesFakerTest">
-    <configuration name="GetBooksFakerTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.RegionWhetherTest">
+    <configuration name="CitiesSearchWhetherTest.SearchCityByText" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="CapstoneProject" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GetBooksFakerTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetBooksFakerTest.GetListBooks" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="CapstoneProject" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GetBooksFakerTest" />
-      <option name="METHOD_NAME" value="GetListBooks" />
+      <option name="MAIN_CLASS_NAME" value="CitiesSearchWhetherTest" />
+      <option name="METHOD_NAME" value="SearchCityByText" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -81,10 +76,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetCreditCardsFakerTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PostalCodeSearchWhetherTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="CapstoneProject" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GetCreditCardsFakerTest" />
+      <option name="MAIN_CLASS_NAME" value="PostalCodeSearchWhetherTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -92,11 +87,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetCreditCardsFakerTest.GetListCreditCards" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PostalCodeSearchWhetherTest.SearchPostalCodeByText" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="CapstoneProject" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GetCreditCardsFakerTest" />
-      <option name="METHOD_NAME" value="GetListCreditCards" />
+      <option name="MAIN_CLASS_NAME" value="PostalCodeSearchWhetherTest" />
+      <option name="METHOD_NAME" value="SearchPostalCodeByText" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -104,10 +99,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetPlacesFakerTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RegionWhetherTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="CapstoneProject" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GetPlacesFakerTest" />
+      <option name="MAIN_CLASS_NAME" value="RegionWhetherTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingList" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CapstoneProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShoppingList" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -117,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.GetPlacesFakerTest" />
-        <item itemvalue="TestNG.GetCreditCardsFakerTest" />
-        <item itemvalue="TestNG.GetBooksFakerTest" />
-        <item itemvalue="TestNG.GetCreditCardsFakerTest.GetListCreditCards" />
-        <item itemvalue="TestNG.GetBooksFakerTest.GetListBooks" />
+        <item itemvalue="TestNG.RegionWhetherTest" />
+        <item itemvalue="TestNG.ShoppingList" />
+        <item itemvalue="TestNG.PostalCodeSearchWhetherTest" />
+        <item itemvalue="TestNG.PostalCodeSearchWhetherTest.SearchPostalCodeByText" />
+        <item itemvalue="TestNG.CitiesSearchWhetherTest.SearchCityByText" />
       </list>
     </recent_temporary>
   </component>

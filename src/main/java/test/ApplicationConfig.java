@@ -25,4 +25,16 @@ public interface ApplicationConfig extends Config {
 
     @Config.Key("server.basefaker4")
     String baseFaker4();
+
+    @Config.Key("server.hostwhether")
+    String hostWhether();
+
+    @Config.Key("server.basewhether1")
+    String baseWhether1();
+
+    @Config.Key("server.basewhether2")
+    String baseWhether2();
+
+    @Config.Key("server.basewhether3")
+    String baseWhether3();
 }
